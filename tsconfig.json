@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "strictFunctionTypes": true,
+    "sourceMap": true,
+    "strictNullChecks": false
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}

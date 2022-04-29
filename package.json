@@ -1,0 +1,21 @@
+{
+  "name": "give-veteran-role",
+  "version": "1.0.0",
+  "description": "A discord bot to give first x users who have joined a discord server, a special role.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "ts-node index",
+    "build": "tsc",
+    "start": "node lib/index"
+  },
+  "keywords": [],
+  "author": "Kiran Chhetri",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
